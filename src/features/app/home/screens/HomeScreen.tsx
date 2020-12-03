@@ -5,6 +5,7 @@ import moment from 'moment';
 import Icon from 'react-native-vector-icons/FontAwesome';
 import Styles from '_home/theme';
 import {YELLOW_A87} from 'styles/Colors';
+import Calender from '_home/modules/calender';
 
 const HomeScreen = () => {
   const [count, setCount] = useState(0);
@@ -48,6 +49,9 @@ const HomeScreen = () => {
               </Text>
             </View>
           </View>
+        </View>
+        <View style={Styles.calenderCon}>
+          <Calender />
         </View>
       </View>
     </SafeAreaView>

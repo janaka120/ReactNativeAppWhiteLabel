@@ -10,9 +10,14 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "dependencies": {
+    "@types/react-native-calendar-picker": "^7.0.0",
+    "@types/react-native-calendars": "^1.505.0",
     "moment-timezone": "^0.5.32",
     "react": "16.13.1",
     "react-native": "0.63.3",
+    "react-native-calendar-picker": "^7.0.3",
+    "react-native-calendar-strip": "^2.0.9",
+    "react-native-calendars": "^1.603.0",
     "react-native-vector-icons": "^7.1.0"
   },
   "devDependencies": {

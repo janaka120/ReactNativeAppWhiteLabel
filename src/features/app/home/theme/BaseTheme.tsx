@@ -39,6 +39,11 @@ const styles = StyleSheet.create({
   timeUnit: {
     color: GRAY_6B6,
   },
+  calenderCon: {
+    flex: 1,
+    paddingTop: 20,
+    alignItems: 'center',
+  },
 });
 
 export default styles;
